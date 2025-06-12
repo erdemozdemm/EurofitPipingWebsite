@@ -39,7 +39,7 @@ export const translations = {
       title: "About Us",
       ourStoryTitle: "Our Story",
       ourStoryText:
-        "Founded in 2017, Eurofit was established to deliver high-quality pipe fittings to the global market, leveraging cutting-edge technology and a commitment to excellence.",
+        "Founded in 2017, Eurofit was established to deliver high-quality pipe fittings to the global market, leveraging cutting-edge technology and a commitment to excellence from our base in Kartal, İstanbul.",
       missionTitle: "Our Mission",
       missionText:
         "To manufacture durable, precise, and timely fitting solutions that meet and exceed our customers' expectations worldwide.",
@@ -62,7 +62,7 @@ export const translations = {
       title: "Production Process",
       coldPressTitle: "Cold Press Technology",
       coldPressDesc:
-        "Our state-of-the-art cold press technology ensures rapid, low-waste manufacturing, producing high-strength and precision components.",
+        "Our state-of-the-art cold press technology ensures rapid, low-waste manufacturing, producing high-strength and precision components at our Kartal facility.",
       stepsTitle: "Production Steps",
       step1: "Raw Material Preparation & Inspection",
       step2: "Cold Pressing & Forming",
@@ -81,17 +81,17 @@ export const translations = {
     },
     projects: {
       title: "Projects & References",
-      desc: "Showcasing our contribution to various industries with Eurofit components.",
+      desc: "Showcasing our contribution to various industries with Eurofit components manufactured in Kartal, İstanbul.",
       productsUsed: "Products Used",
     },
     sustainability: {
       title: "Sustainability at Eurofit",
       energyEfficiencyTitle: "Energy Efficiency",
-      energyEfficiencyDesc: "Implementing energy-saving practices throughout our production line.",
+      energyEfficiencyDesc: "Implementing energy-saving practices throughout our production line in Kartal.",
       wasteRecyclingTitle: "80%+ Waste Recycling",
       wasteRecyclingDesc: "Minimizing environmental impact through comprehensive recycling programs.",
       communityTitle: "Community & Responsibility",
-      communityDesc: "Contributing to local communities and upholding ethical business practices.",
+      communityDesc: "Contributing to local communities around Kartal and upholding ethical business practices.",
     },
     blog: {
       title: "Blog & Technical Info",
@@ -106,12 +106,14 @@ export const translations = {
       formDesc: "Have a question or a project in mind? Let's talk.",
       address: "Address",
       phone: "Phone",
-      location: "Izmir, Türkiye",
+      location: "Kartal, İstanbul, Türkiye", // Updated
       officeHours: "Office Hours: Mon-Fri, 9am - 6pm (GMT+3)",
     },
     footer: {
       copyright: `© ${new Date().getFullYear()} Eurofit Industrial Fitting Systems. All rights reserved.`,
       contactInfo: "Contact Information",
+      quickLinks: "Quick Links",
+      ourLocation: "Our Location", // New key for map title
     },
   },
   tr: {
@@ -154,7 +156,7 @@ export const translations = {
       title: "Hakkımızda",
       ourStoryTitle: "Hikayemiz",
       ourStoryText:
-        "2017 yılında kurulan Eurofit, en son teknolojiyi ve mükemmellik taahhüdünü kullanarak küresel pazara yüksek kaliteli boru bağlantı elemanları sunmak amacıyla kurulmuştur.",
+        "2017 yılında kurulan Eurofit, Kartal, İstanbul'daki merkezimizden en son teknolojiyi ve mükemmellik taahhüdünü kullanarak küresel pazara yüksek kaliteli boru bağlantı elemanları sunmak amacıyla kurulmuştur.",
       missionTitle: "Misyonumuz",
       missionText:
         "Dünya çapındaki müşterilerimizin beklentilerini karşılayan ve aşan dayanıklı, hassas ve zamanında bağlantı çözümleri üretmek.",
@@ -177,7 +179,7 @@ export const translations = {
       title: "Üretim Sürecimiz",
       coldPressTitle: "Soğuk Pres Teknolojisi",
       coldPressDesc:
-        "Son teknoloji soğuk pres teknolojimiz, hızlı, düşük atıklı üretim sağlayarak yüksek mukavemetli ve hassas bileşenler üretir.",
+        "Kartal tesisimizdeki son teknoloji soğuk pres teknolojimiz, hızlı, düşük atıklı üretim sağlayarak yüksek mukavemetli ve hassas bileşenler üretir.",
       stepsTitle: "Üretim Adımları",
       step1: "Hammadde Hazırlığı ve Kontrolü",
       step2: "Soğuk Presleme ve Şekillendirme",
@@ -196,17 +198,17 @@ export const translations = {
     },
     projects: {
       title: "Projeler ve Referanslar",
-      desc: "Eurofit bileşenleriyle çeşitli endüstrilere katkımızı sergiliyoruz.",
+      desc: "Kartal, İstanbul'da üretilen Eurofit bileşenleriyle çeşitli endüstrilere katkımızı sergiliyoruz.",
       productsUsed: "Kullanılan Ürünler",
     },
     sustainability: {
       title: "Eurofit'te Sürdürülebilirlik",
       energyEfficiencyTitle: "Enerji Verimliliği",
-      energyEfficiencyDesc: "Üretim hattımız boyunca enerji tasarrufu uygulamalarını hayata geçiriyoruz.",
+      energyEfficiencyDesc: "Kartal'daki üretim hattımız boyunca enerji tasarrufu uygulamalarını hayata geçiriyoruz.",
       wasteRecyclingTitle: "%80+ Atık Geri Dönüşümü",
       wasteRecyclingDesc: "Kapsamlı geri dönüşüm programları ile çevresel etkiyi en aza indiriyoruz.",
       communityTitle: "Toplum ve Sorumluluk",
-      communityDesc: "Yerel topluluklara katkıda bulunuyor ve etik iş uygulamalarını sürdürüyoruz.",
+      communityDesc: "Kartal çevresindeki yerel topluluklara katkıda bulunuyor ve etik iş uygulamalarını sürdürüyoruz.",
     },
     blog: {
       title: "Blog ve Teknik Bilgiler",
@@ -221,12 +223,14 @@ export const translations = {
       formDesc: "Bir sorunuz veya projeniz mi var? Konuşalım.",
       address: "Adres",
       phone: "Telefon",
-      location: "İzmir, Türkiye",
+      location: "Kartal, İstanbul, Türkiye", // Updated
       officeHours: "Çalışma Saatleri: Pzt-Cum, 09:00 - 18:00 (GMT+3)",
     },
     footer: {
       copyright: `© ${new Date().getFullYear()} Eurofit Endüstriyel Bağlantı Sistemleri. Tüm hakları saklıdır.`,
       contactInfo: "İletişim Bilgileri",
+      quickLinks: "Hızlı Bağlantılar",
+      ourLocation: "Konumumuz", // New key for map title
     },
   },
 }

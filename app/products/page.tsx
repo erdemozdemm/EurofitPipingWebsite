@@ -1,4 +1,5 @@
 "use client"
+import { useEffect } from "react" // Import useEffect
 import { useLanguage } from "@/app/context/language-context"
 import ProductCard from "@/app/components/products/product-card"
 import { motion } from "framer-motion"
@@ -33,10 +34,37 @@ const dummyProducts = (category: ProductCategory, t: Function) => [
     useCase: "Specialized Use Z",
     category,
   },
+  // Add more products to make scrolling more apparent if needed
+  {
+    id: `${category}-4`,
+    name: `${t(category, "products", "categories")} Product 4`,
+    image: `/placeholder.svg?height=300&width=400&query=${category}+fitting+4`,
+    specs: "Spec G, Spec H",
+    useCase: "Application W",
+    category,
+  },
 ]
 
 export default function ProductsPage() {
   const { t } = useLanguage()
+  // const pathname = usePathname(); // Not strictly needed for window.location.hash
+
+  useEffect(() => {
+    // This code runs only on the client side
+    if (typeof window !== "undefined" && window.location.hash === "#latest-products") {
+      const element = document.getElementById("latest-products-anchor")
+      if (element) {
+        // Scroll the anchor into view. 'block: "end"' tries to align the bottom of the element with the bottom of the scrollport.
+        // 'block: "start"' might be preferred if you want the top of the last items to be visible.
+        // For "viewing the end", "end" or "nearest" might be good. Let's try "end".
+        element.scrollIntoView({ behavior: "smooth", block: "end" })
+
+        // Optional: Remove the hash from the URL after scrolling to prevent re-scrolling on refresh
+        // and to clean up the URL.
+        // window.history.replaceState(null, '', window.location.pathname + window.location.search);
+      }
+    }
+  }, []) // Empty dependency array ensures this runs once after the component mounts
 
   return (
     <motion.div
@@ -74,6 +102,8 @@ export default function ProductsPage() {
           </TabsContent>
         ))}
       </Tabs>
+      {/* This is the anchor div. It's placed at the end of the main content. */}
+      <div id="latest-products-anchor" style={{ height: "1px" }} />
     </motion.div>
   )
 }

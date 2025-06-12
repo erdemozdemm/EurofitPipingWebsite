@@ -15,7 +15,7 @@ export default function AboutPage() {
       <h1 className="text-4xl font-bold mb-8 text-center text-accent">{t("title", "about")}</h1>
       <div className="max-w-4xl mx-auto space-y-12">
         <section className="text-center">
-          <h2 className="text-3xl font-semibold mb-4 text-foreground">{t("ourStoryTitle", "about")}</h2>
+          <h2 className="text-3xl font-semibold mb-4 text-accent">{t("ourStoryTitle", "about")}</h2>
           <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
             {t("ourStoryText", "about")}
           </p>
